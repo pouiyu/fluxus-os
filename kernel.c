@@ -93,7 +93,7 @@ void kernel_main(void)
     clear_screen(3);                                        /* 青色 */
 
     /* ---- 第 4 步：调试信息标题 ---- */
-    draw_string(0, 0, "Fluxus Debug Console", 15, 1);       /* 白字蓝底标题 */
+    draw_string(0, 0, "Fluxus Debug Console", 15, 3);       /* 白字蓝底标题 */
     draw_string(0, 10, "--------------------", 7, 3);        /* 分隔线 */
 
     /* ---- 第 5 步：静态调试标签 ---- */
